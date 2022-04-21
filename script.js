@@ -1,27 +1,72 @@
-/*
-This is your site JavaScript code - you can add interactivity and carry out processing
-- Initially the JS writes a message to the console, and moves a button you can add from the README
-*/
+class MobileNavbar {
+    constructor(mobileMenu, navList, navLinks, containerBtn) {
+        this.mobileMenu = document.querySelector(mobileMenu);
+        this.navList = document.querySelector(navList);
+        this.navLinks = document.querySelectorAll(navLinks);
+        this.activeClass = "active";
 
-// Print a message in the browser's dev tools console each time the page loads
-// Use your menus or right-click / control-click and choose "Inspect" > "Console"
-console.log("Hello 🌎");
+        this.handleClick = this.handleClick.bind(this);
+    }
 
-/* 
-Make the "Click me!" button move when the visitor clicks it:
-- First add the button to the page by following the "Next steps" in the README
-*/
-const btn = document.querySelector("button"); // Get the button from the page
-// Detect clicks on the button
-if (btn) {
-  btn.onclick = function() {
-    // The JS works in conjunction with the 'dipped' code in style.css
-    btn.classList.toggle("dipped");
-  };
+    animateLinks() {
+        this.navLinks.forEach((link, index) => {
+            link.style.animation
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+                    index / 7 + 0.3
+                }s`);
+        });
+    }
+
+    handleClick() {
+        this.navList.classList.toggle(this.activeClass);
+        this.mobileMenu.classList.toggle(this.activeClass);
+        this.animateLinks();
+    }
+
+    addClickEvent() {
+        this.mobileMenu.addEventListener("click", this.handleClick);
+    }
+
+    init() {
+        if (this.mobileMenu) {
+            this.addClickEvent();
+        }
+        return this;
+    }
 }
 
-// This is a single line JS comment
-/*
-This is a comment that can span multiple lines 
-- use comments to make your own notes!
-*/
+const mobileNavbar = new MobileNavbar(
+    ".mobile-menu",
+    ".nav-list",
+    ".nav-list li",
+);
+mobileNavbar.init();
+
+const btn = document.querySelector('.btn');
+const containerbtn = document.querySelector('.container-btn');
+const head = document.querySelector('.head');
+const button = document.querySelector('.button');
+const navlist = document.querySelector('.nav-list');
+const corpo = document.querySelector('.corpo');
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.documentElement.setAttribute("data-theme", "dark");
+});
+
+document.addEventListener("DOMContentLoaded", function(event){
+    document.documentElement.setAttribute("data-theme", "light");
+
+    btn.onclick = function (){
+        var currentTheme = document.documentElement.getAttribute("data-theme");
+        var switchToTheme =currentTheme === "dark" ? "light" : "dark"
+        document.documentElement.setAttribute("data-theme", switchToTheme);
+        this.classList.toggle('activ')
+        containerbtn.classList.toggle('activ')
+        corpo.classList.toggle('activ')
+        head.classList.toggle('activ')
+        button.classList.toggle('activ')
+        navlist.classList.toggle('activ')
+    }
+});
