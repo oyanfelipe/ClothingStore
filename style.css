@@ -1,347 +1,383 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-@font-face {
-  font-family: 'Cigra-FREEDEMO';
-  src: url('../fonts/WEB FONT/Cigra Free Demo.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/WEB FONT/Cigra Free Demo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/WEB FONT/Cigra Free Demo.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/Cigra Free Demo.ttf') format('truetype'); /* Safari, Android, iOS */
-      font-style: normal;
-  font-weight: normal;
-}
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  transition: var(--transition);
-}
-[data-theme="dark"] {
-  --background-color: black;
-  --text-color: #fffaf1;
-  --transition: background .5s;
-}
-.corpo{
-  background-color: #FFFAF1;
-  transition: background .5s;
-}
-.corpo.activ{
-  background-color: black;
-  transition: background .5s;
-}
-.cabecalho{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.head{
-  display: flex;
-  justify-content: space-around;
-}
-.logo {
-  font-family: Cigra-FREEDEMO, serif;
-  color: #1d6440;
-  font-size: 26px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-.menu {
-  font-family: "Neue Haas Grotesk Display Pro";
-  color: #1d6440;
-  font-weight: 400;
-  font-size: 18px;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  border-top: 2px solid #1d6440;
-  border-bottom: 2px solid #1d6440;
-}
-
-.container-principal {
-  display: flex;
-  justify-content: end;
-  padding: 24px;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-.container-principal-a {
-  display: flex;
-  justify-content: end;
-  padding: 24px;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-.container-secundario {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-  margin-top: 48px;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-.container-terciario {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-  margin-top: 48px;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-.container-secundario-a {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 30px;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  flex-wrap: wrap;
-}
-.container-secundario-a div{
-  flex: 1 1 300px;
-}
-.message {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-.message-a {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-.text {
-  font-family: 'Cigra-FREEDEMO', "Neue Haas Grotesk Display Pro";
-  margin-left: 20px;
-  font-weight: 400;
-  font-size: 45px;
-  color: #1d6440;
-}
-.paragrafo{
-  font-family: "Neue Haas Grotesk Display Pro";
-  font-weight: 100;
-  font-size: 20px;
-}
-
-.imagem-principal {
-  max-width: 555px;
-  border: 2px solid #1d6440;
-}
-img{
-  width: 100%;
-}
-.container-btn {
-  background: #FFFAF1;
-  transition: background .5s;
-  padding-right: 6px;
-
-}
-
-.container-btn.activ {
-  background: black;
-  transition: background .5s;
-}
-
-.btn {
-  width: 50px;
-  height: 24px;
-  border: 3px solid #1d6440;
-  border-radius: 60px;
-  position: relative;
-  cursor: pointer;
-}
-.btn:before {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background: #1d6440;
-  border-radius: 50%;
-  top: 50%;
-  left: 1px;
-  transform: translateY(-50%);
-  transition: left .5s;
-}
-.btn.activ:before {
-  left: 29px;
-}
-
-.button.activ {
-  background-color: black;
-  transition: background .5s;
-}
-.button {
-  background-color: #FFFAF1;
-  color: #1d6440;
-  font-size: 16px;
-  font-weight: 400;
-  transition: background .5s;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border: 2px solid #1d6440;
-  border-radius: 10px;
-  width: 180px;
-  height: 60px;
-  margin-left: 24px;
-}
-.button:hover {
-  background-color: #1d6440;
-  color: #FFFAF1;
-}
-.button.activ:hover{
-  color: black;
-}
-
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #1d6440;
-  margin: 8px;
-  transition: 0.3s;
-}
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-@media (max-width: 999px) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  @font-face {
+    font-family: 'Cigra-FREEDEMO';
+    src: url('../fonts/WEB FONT/Cigra Free Demo.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/WEB FONT/Cigra Free Demo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/WEB FONT/Cigra Free Demo.woff') format('woff'), /* Modern Browsers */
+      url('../fonts/Cigra Free Demo.ttf') format('truetype'); /* Safari, Android, iOS */
+        font-style: normal;
+    font-weight: normal;
+  }
   body {
-    overflow-x: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: var(--transition);
   }
-  .nav-list {
-    position: absolute;
-    font-weight: 300;
-    font-size: 40px;
-    top: 120px;
-    right: 0;
-    width: 100vw;
-    height: 92vh;
-    background: #FFFAF1;
-    flex-direction: column;
+  [data-theme="dark"] {
+    --background-color: black;
+    --text-color: #e9e7d6;
+    --transition: background .5s;
+  }
+  .corpo{
+    background-color: #e9e7d6;
+    transition: background .5s;
+  }
+  .corpo.activ{
+    background-color: black;
+    transition: background .5s;
+  }
+  .cabecalho{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .head{
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    transform: translateX(100%);
-    transition: background .5s, transform 0.3s ease-in;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
   }
-
-  .nav-list.activ{
+  .logo {
+    font-family: Cigra-FREEDEMO;
+    color: #205f9a;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .menu {
+    font-family: "Neue Haas Grotesk Display Pro";
+    color: #205f9a;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #205f9a;
+    border-bottom: 2px solid #205f9a;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+  
+  .container-principal {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+  .container-principal-a {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+  .container-secundario {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    width: min(500px, 50vw);
+  }
+  
+  .painel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .meninocapa {
+     display: flex;
+    position: absolute;
+    width: min(250px, 50vw);
+    top: 190px;
+    left: 190px;
+    border: 2px solid #205f9a;
+    border-radius: 50%;
+  }
+  .textopri{
+    display: flex;
+    position: absolute;
+    top: 35vw;
+    left: 30vw;
+    font-size: min(300px, 6vw);
+    font-weight: 400; 
+  }
+  .button.activ {
+    background-color: black;
+    transition: background .5s;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e7d6;
+    color: #205f9a;
+    font-size: 16px;
+    font-weight: 400;
+    transition: background .5s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #205f9a;
+    border-radius: 10px;
+    width: max(180px, 1vw);
+    height: max(60px, 1vw);
+    margin: 12px;
+  }
+  .button:hover {
+    background-color: #205f9a;
+    color: #e9e7d6;
+  }
+  .button.activ:hover{
+    color: black;
+  }
+  .divdeitadaesquerda{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    right: 900px;
+    bottom: 300px;
+    border: 2px solid #205f9a;
+  }
+  .divdeitadadireita{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    left: 900px;
+    bottom: 300px;
+    border: 2px solid #205f9a;
+  }
+  .textodeitado{
+    writing-mode: vertical-rl;
+  }
+  .container-terciario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 12vw;
+    padding-left: 12vw;    
+  }
+  .contimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  .imagemproduto {
+    max-width: calc(50% - 12px);
+    min-width: 200px
+  }
+  .imagemp{
+    border: 2px solid #205f9a;
+  }
+  .container-secundario-a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    flex-wrap: wrap;
+  }
+  .container-secundario-a div{
+    flex: 1 1 300px;
+  }
+  
+  .text {
+    font-family: 'Cigra-FREEDEMO', "Neue Haas Grotesk Display Pro";
+    font-weight: 400;
+    font-size: 45px;
+    color: #205f9a;
+  }
+  .paragrafo{
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+  .imagem-principal {
+    max-width: 555px;
+    border: 2px solid #205f9a;
+  }
+  img{
+    width: 100%;
+  }
+  .container-btn {
+    background: #e9e7d6;
+    transition: background .5s;
+    padding-right: calc(6px - 6vw);
+  }
+  
+  .container-btn.activ {
     background: black;
     transition: background .5s;
   }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
+  
+  .btn {
+    width: 50px;
+    height: 24px;
+    border: 3px solid #205f9a;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
   }
+  .btn:before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #205f9a;
+    border-radius: 50%;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    transition: left .5s;
+  }
+  .btn.activ:before {
+    left: 29px;
+  }
+  
+  
+  
+  
   .mobile-menu {
-    display: block;
+    display: none;
+    cursor: pointer;
   }
-}
-.nav-list.active {
-  transform: translateX(0);
-}
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #205f9a;
+    margin: 8px;
+    transition: 0.3s;
   }
-  to {
-    opacity: 1;
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      font-weight: 300;
+      font-size: 40px;
+      top: 120px;
+      right: 0;
+      width: 100vw;
+      height: 92vh;
+      background: #e9e7d6;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      transform: translateX(100%);
+      transition: background .5s, transform 0.3s ease-in;
+    }
+  
+    .nav-list.activ{
+      background: black;
+      transition: background .5s;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  .nav-list.active {
     transform: translateX(0);
   }
-}
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-}
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
-
-.corpo {
-  font-size: 100%;
-  background: #FFFAF1;
-  transition: background .5s;
-}
-.corpo.activ{
-  background: black;
-  transition: background .5s;
-}
-
-.rodape {
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 32px;
-}
-.footer-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  max-width: 500px;
-  margin: 5px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-
-.socials{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
-}
-.socials li{
-  margin: 0 10px;
-}
-.socials a{
-  text-decoration: none;
-  color: #1d6440;
-}
-.socials a i{
-  font-size: 1.1rem;
-  transition: color .4s ease;
-}
-.footer-bottom{
-  text-align: center;
-}
-
-.footer-bottom p{
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-}
-.footer-bottom span{
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: 200;
-}
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+  
+  .corpo {
+    font-size: 100%;
+    background: #e9e7d6;
+    transition: background .5s;
+  }
+  .corpo.activ{
+    background: black;
+    transition: background .5s;
+  }
+  
+  .rodape {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #205f9a;
+  }
+  .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+  }
+  .footer-bottom{
+    text-align: center;
+  }
+  
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
