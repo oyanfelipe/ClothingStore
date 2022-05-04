@@ -113,9 +113,9 @@
   }
   .textopri{
     display: flex;
-    position: absolute;
-    top: 200px;
-    left: 1200px;
+    
+    top: max(2000px, 40vw);
+    left: min(600px, 60vw);
     font-size: min(100px, 10vw);
     font-weight: 400; 
   }
