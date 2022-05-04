@@ -79,17 +79,25 @@
   }
   .container-secundario {
     display: flex;
+    flex-direction: row;
     margin-top: 48px;
     margin-bottom: 96px;
     width: min(500px, 50vw);
   }
-  
+  .divdeitadaesquerda{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    
+    border: 2px solid #205f9a;
+  }
   .painel{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
    .meninocapa {
      display: flex;
@@ -136,14 +144,7 @@
   .button.activ:hover{
     color: black;
   }
-  .divdeitadaesquerda{
-    display: flex;
-    height: 500px;
-    align-items: center;
-    right: 900px;
-    bottom: 300px;
-    border: 2px solid #205f9a;
-  }
+  
   .divdeitadadireita{
     display: flex;
     height: 500px;
