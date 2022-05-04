@@ -85,15 +85,17 @@
   }
   .divdeitadaesquerda{
     display: flex;
-    height: min(200px, 60vw);
+    width: min(40px, 6vw);
     align-items: center;
     margin-left: min(40px, 2vw);
     border-right: 2px solid #205f9a;
   }
   .painel{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    align-content: flex-start;
   }
   .paineldentro{
     display: flex;
@@ -105,7 +107,7 @@
   }
   .paineldentro2{
     display: flex;
-    align-items: center;
+    align-content: flex-start;
   }
    .meninocapa {
     display: flex;
