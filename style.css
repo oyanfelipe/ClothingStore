@@ -93,8 +93,14 @@
   .painel{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
+  }
+  .paineldentro{
+    display: flex;
+  }
+  .paineldentro2{
+    display: flex;
+    align
   }
    .meninocapa {
     display: flex;
@@ -109,7 +115,7 @@
     position: absolute;
     top: 35vw;
     left: 30vw;
-    font-size: min(200px, 10vw);
+    font-size: min(100px, 20vw);
     font-weight: 400; 
   }
 .divdeitadadireita{
