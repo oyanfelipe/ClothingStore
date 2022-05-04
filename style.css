@@ -113,11 +113,12 @@
   }
   .textopri{
     display: flex;
-    
-    top: max(2000px, 40vw);
-    left: min(600px, 60vw);
-    font-size: min(100px, 10vw);
+    position: absolute;
+    top: min(400px, 70vw);
+    left: min(600px, 50vw);
+    font-size: min(150px, 6vw);
     font-weight: 400; 
+    margin-right: 100px;
   }
 .divdeitadadireita{
     display: flex;
@@ -145,7 +146,7 @@
     border-radius: 10px;
     width: min(180px, 35vw);
     height: min(60px, 35vw);
-    margin: 12px;
+    margin: 24px;
   }
   .button:hover {
     background-color: #205f9a;
