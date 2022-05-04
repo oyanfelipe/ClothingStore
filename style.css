@@ -85,7 +85,7 @@
   }
   .divdeitadaesquerda{
     display: flex;
-    height: min(200px, 20vw);
+    width: max(20px, 1vw);
     align-items: center;
     margin-right: 40px;
     border-right: 2px solid #205f9a;
@@ -101,7 +101,7 @@
     margin: 4% 10% 5% 10%;
   }
   .paineldentro img{
-    width: 100%;
+    width: min(300px, 30vw);
   }
   .paineldentro2{
     display: flex;
@@ -109,9 +109,6 @@
   }
    .meninocapa {
     display: flex;
-    position: relative;
-    width: min(400px, 40vw);
-    
     border: 2px solid #205f9a;
     border-radius: 50%;
   }
@@ -119,14 +116,15 @@
     width: 100;
     position: relative;
     margin-top: -40%;
-  }
-  .containertexto p{
-    text-align: center;
     top: min(400px, 70vw);
     left: min(600px, 50vw);
     font-size: min(100px, 8vw);
     font-weight: 400; 
     margin-right: 100px;
+  }
+  .containertexto p{
+    text-align: center;
+    
 
     
   }
