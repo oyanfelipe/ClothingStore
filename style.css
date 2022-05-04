@@ -147,8 +147,8 @@
     cursor: pointer;
     border: 2px solid #205f9a;
     border-radius: 10px;
-    width: min(180px, 35vw);
-    height: min(60px, 35vw);
+    width: min(180px, 30vw);
+    height: min(60px, 30vw);
     margin: 24px;
   }
   .button:hover {
