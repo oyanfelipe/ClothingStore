@@ -85,9 +85,9 @@
   }
   .divdeitadaesquerda{
     display: flex;
-    width: max(20px, 1vw);
+    height: min(200px, 60vw);
     align-items: center;
-    margin-right: 40px;
+    margin-right: min(40px, 2vw);
     border-right: 2px solid #205f9a;
   }
   .painel{
@@ -101,7 +101,7 @@
     margin: 4% 10% 5% 10%;
   }
   .paineldentro img{
-    width: min(300px, 30vw);
+    width: min(300px, 50vw);
   }
   .paineldentro2{
     display: flex;
@@ -113,7 +113,7 @@
     border-radius: 50%;
   }
   .containertexto{
-    width: 100;
+    width: min(300px, 50vw);
     position: relative;
     margin-top: -40%;
     top: min(400px, 70vw);
@@ -123,16 +123,13 @@
     margin-right: 100px;
   }
   .containertexto p{
-    text-align: center;
-    
-
-    
+    text-align: center;    
   }
 .divdeitadadireita{
     display: flex;
-    height: min(200px, 20vw);
+    height: min(200px, 60vw);
     align-items: center;
-    margin-left: 40px;
+    margin-left: min(40px, 2vw);
     border-left: 2px solid #205f9a;
   }
   .button.activ {
