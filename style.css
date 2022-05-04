@@ -80,6 +80,7 @@
   .container-secundario {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 96px;
     width: min(500px, 50vw);
@@ -97,14 +98,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    
   }
    .meninocapa {
-     display: flex;
-    position: absolute;
+    display: flex;
+    
     width: min(250px, 50vw);
-    top: 190px;
-    left: 190px;
+    
     border: 2px solid #205f9a;
     border-radius: 50%;
   }
@@ -115,6 +115,12 @@
     left: 30vw;
     font-size: min(300px, 6vw);
     font-weight: 400; 
+  }
+.divdeitadadireita{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    border: 2px solid #205f9a;
   }
   .button.activ {
     background-color: black;
@@ -145,14 +151,6 @@
     color: black;
   }
   
-  .divdeitadadireita{
-    display: flex;
-    height: 500px;
-    align-items: center;
-    left: 900px;
-    bottom: 300px;
-    border: 2px solid #205f9a;
-  }
   .textodeitado{
     writing-mode: vertical-rl;
   }
