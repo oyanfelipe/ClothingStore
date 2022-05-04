@@ -115,15 +115,20 @@
     border: 2px solid #205f9a;
     border-radius: 50%;
   }
-  .textopri{
-    display: flex;
-    width: 100%;
-    position: absolute;
+  .containertexto{
+    width: 100;
+    position: relative;
+    margin-top: -40%;
+  }
+  .containertexto p{
+    text-align: center;
     top: min(400px, 70vw);
     left: min(600px, 50vw);
     font-size: min(100px, 8vw);
     font-weight: 400; 
     margin-right: 100px;
+
+    
   }
 .divdeitadadireita{
     display: flex;
