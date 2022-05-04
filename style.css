@@ -93,19 +93,20 @@
   .painel{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: space-between;
   }
   .paineldentro{
     display: flex;
   }
   .paineldentro2{
     display: flex;
-    align
+    justify-content: end
   }
    .meninocapa {
     display: flex;
     
-    width: min(300px, 40vw);
+    width: min(400px, 40vw);
     
     border: 2px solid #205f9a;
     border-radius: 50%;
@@ -113,9 +114,9 @@
   .textopri{
     display: flex;
     position: absolute;
-    top: 35vw;
-    left: 30vw;
-    font-size: min(100px, 20vw);
+    top: 200px;
+    left: 1200px;
+    font-size: min(100px, 10vw);
     font-weight: 400; 
   }
 .divdeitadadireita{
