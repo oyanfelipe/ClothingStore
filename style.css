@@ -115,12 +115,6 @@
   .containertexto{
     width: min(300px, 50vw);
     position: relative;
-    margin-top: -40%;
-    top: min(400px, 70vw);
-    left: min(600px, 50vw);
-    font-size: min(100px, 8vw);
-    font-weight: 400; 
-    margin-right: 100px;
   }
   .containertexto p{
     text-align: center;    
