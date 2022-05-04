@@ -96,8 +96,8 @@
     flex-wrap: wrap;
     align-items: space-between;
   }
-  .paineldentro{
-    display: flex;
+  .paineldentro img{
+    width: 80%
   }
   .paineldentro2{
     display: flex;
