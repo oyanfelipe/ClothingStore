@@ -96,8 +96,12 @@
     flex-wrap: wrap;
     align-items: space-between;
   }
+  .paineldentro{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+  }
   .paineldentro img{
-    width: 80%
+    width: 100%;
   }
   .paineldentro2{
     display: flex;
@@ -113,6 +117,7 @@
   }
   .textopri{
     display: flex;
+    width: 100%;
     position: absolute;
     top: min(400px, 70vw);
     left: min(600px, 50vw);
