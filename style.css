@@ -97,7 +97,6 @@
   }
   .paineldentro{
     display: flex;
-    align-items: flex-start;
     width: 80%;
     margin: 4% 10% 5% 10%;
   }
@@ -106,7 +105,7 @@
   }
   .paineldentro2{
     display: flex;
-    justify-content: end
+    align-items: center;
   }
    .meninocapa {
     display: flex;
@@ -116,6 +115,8 @@
   .containertexto{
     width: min(300px, 50vw);
     position: relative;
+    display: flex;
+    align-items: flex-end;
   }
   .containertexto p{
     text-align: center;    
