@@ -80,17 +80,17 @@
   .container-secundario {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 96px;
   }
   .divdeitadaesquerda{
     display: flex;
-    height: 500px;
+    height: 200px;
     align-items: center;
-    justify-content: flex-start;
-    
-    border: 2px solid #205f9a;
+    margin-right: 40px;
+    border-right: 2px solid #205f9a;
   }
   .painel{
     display: flex;
@@ -102,7 +102,7 @@
    .meninocapa {
     display: flex;
     
-    width: min(250px, 50vw);
+    width: min(300px, 50vw);
     
     border: 2px solid #205f9a;
     border-radius: 50%;
@@ -117,9 +117,10 @@
   }
 .divdeitadadireita{
     display: flex;
-    height: 500px;
+    height: 200px;
     align-items: center;
-    border: 2px solid #205f9a;
+    margin-left: 40px;
+    border-left: 2px solid #205f9a;
   }
   .button.activ {
     background-color: black;
