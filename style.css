@@ -79,7 +79,7 @@
   .container-secundario {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     border-bottom: 2px solid #205f9a;
     margin-top: 48px;
     margin-bottom: 96px;
@@ -90,15 +90,10 @@
     align-items: center;
     
   }
-  .painel{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
   .paineldentro{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 80%;
     margin: 4% 10% 5% 10%;
   }
