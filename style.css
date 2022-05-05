@@ -106,11 +106,13 @@
   }
    .meninocapa {
     display: flex;
+    position: relative;
     border: 2px solid #205f9a;
     border-radius: 50%;
   }
   .containertexto{
     display: flex;
+    position: absolute;
     align-items: flex-end;
   }
   .textopri{
