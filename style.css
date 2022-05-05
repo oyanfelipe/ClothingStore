@@ -60,10 +60,7 @@
     flex-direction: column;
     border-top: 2px solid #205f9a;
     border-bottom: 2px solid #205f9a;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    
   }
   .container-principal {
     display: flex;
@@ -88,7 +85,7 @@
     display: flex;
     width: min(40px, 6vw);
     align-items: center;
-    margin-left: min(40px, 2vw);
+    
   }
   .painel{
     display: flex;
@@ -167,8 +164,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 12vw;
-    padding-left: 12vw;    
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 6vw;
+    padding-right: 6vw; 
   }
   .contimg{
     display: flex;
