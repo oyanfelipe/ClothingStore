@@ -71,7 +71,7 @@
     padding-right: 6vw;
   }
   .container-principal-a {
-     display: flex;
+    display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     padding-right: 6vw;
@@ -116,7 +116,8 @@
     align-items: flex-end;
   }
   .textopri{
-    font-size: min(300px, 5vw);
+    font-size: min(600px, 10vw);
+    
   }
   .divdeitadadireita{
     display: flex;
