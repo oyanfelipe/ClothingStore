@@ -80,15 +80,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom: ;
     margin-top: 48px;
     margin-bottom: 96px;
   }
   .divdeitadaesquerda{
     display: flex;
-    width: min(80px, 6vw);
+    width: min(40px, 6vw);
     align-items: center;
     margin-left: min(40px, 2vw);
-    border-right: 2px solid #205f9a;
   }
   .painel{
     display: flex;
@@ -128,7 +128,6 @@
     width: min(40px, 6vw);
     align-items: center;
     margin-right: min(40px, 2vw);
-    border-left: 2px solid #205f9a;
   }
   .button.activ {
     background-color: black;
