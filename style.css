@@ -148,7 +148,7 @@
     border-radius: 10px;
     width: min(180px, 30vw);
     height: min(60px, 30vw);
-    margin: 50px 0 0 0;
+    margin: 50px 0 48px 0;
   }
   .button:hover {
     background-color: #205f9a;
