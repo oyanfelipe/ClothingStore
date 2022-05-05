@@ -85,7 +85,7 @@
   }
   .divdeitadaesquerda{
     display: flex;
-    width: min(40px, 6vw);
+    width: min(80px, 6vw);
     align-items: center;
     margin-left: min(40px, 2vw);
     border-right: 2px solid #205f9a;
@@ -125,7 +125,7 @@
   }
 .divdeitadadireita{
     display: flex;
-    height: min(200px, 60vw);
+    width: min(40px, 6vw);
     align-items: center;
     margin-right: min(40px, 2vw);
     border-left: 2px solid #205f9a;
@@ -149,7 +149,7 @@
     border-radius: 10px;
     width: min(180px, 30vw);
     height: min(60px, 30vw);
-    margin: 48px 0 24px 0;
+    margin: 50px 0 0 0;
   }
   .button:hover {
     background-color: #205f9a;
