@@ -60,12 +60,15 @@
     flex-direction: column;
     border-top: 2px solid #205f9a;
     border-bottom: 2px solid #205f9a;
+    padding-top: 30px;
+    padding-bottom: 50px;
     
   }
   .container-principal {
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
+    padding-right: 6vw;
   }
   .container-principal-a {
     display: flex;
@@ -124,7 +127,7 @@
     display: flex;
     width: min(40px, 6vw);
     align-items: center;
-    margin-right: min(40px, 2vw);
+
   }
   .button.activ {
     background-color: black;
@@ -164,10 +167,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 6vw;
-    padding-right: 6vw; 
+    padding-right: 18vw;
+    padding-left: 18vw;    
   }
   .contimg{
     display: flex;
