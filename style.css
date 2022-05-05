@@ -93,7 +93,7 @@
   .paineldentro{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 80%;
     margin: 4% 10% 5% 10%;
   }
@@ -110,13 +110,11 @@
     border-radius: 50%;
   }
   .containertexto{
-    width: min(300px, 50vw);
-   
     display: flex;
     align-items: flex-end;
   }
-  .containertexto p{
-    text-align: center;    
+  .textopri{
+    font-size: min(300px, 5vw);
   }
   .divdeitadadireita{
     display: flex;
