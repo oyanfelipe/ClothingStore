@@ -95,7 +95,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   .paineldentro{
     display: flex;
