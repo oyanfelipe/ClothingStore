@@ -116,8 +116,8 @@
     align-items: flex-end;
   }
   .textopri{
-    font-size: min(600px, 10vw);
-    
+    font-size: 5rem;
+    text-align: center;
   }
   .divdeitadadireita{
     display: flex;
