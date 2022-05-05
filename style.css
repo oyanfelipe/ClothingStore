@@ -106,18 +106,19 @@
   }
    .meninocapa {
     display: flex;
-    position: relative;
+    
     border: 2px solid #205f9a;
     border-radius: 50%;
+   
   }
   .containertexto{
+    margin: 100px;
     display: flex;
-    position: absolute;
     align-items: flex-end;
   }
   .textopri{
-    font-size: 5rem;
-    text-align: center;
+    font-size: min(5rem, 10vw);
+    white-space: nowrap; 
   }
   .divdeitadadireita{
     display: flex;
