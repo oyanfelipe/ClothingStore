@@ -79,7 +79,6 @@
   .container-secundario {
     display: flex;
     flex-direction: row;
-    justify-content: ;
     border-bottom: 2px solid #205f9a;
     margin-top: 48px;
     margin-bottom: 96px;
@@ -95,7 +94,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
   .paineldentro{
     display: flex;
@@ -126,7 +125,7 @@
   .divdeitadadireita{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    align-content: flex-end;
     width: min(40px, 6vw);
     
 
