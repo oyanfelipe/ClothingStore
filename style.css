@@ -78,33 +78,36 @@
   }
   .container-secundario {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px solid #205f9a;
     margin-top: 48px;
     margin-bottom: 96px;
   }
+.f{
+  
+}
   .divdeitadaesquerda{
     display: flex;
     width: min(40px, 6vw);
     align-items: center;
     
   }
-  .paineldentro{
+  .painel{
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
     width: 80%;
     margin: 4% 10% 5% 10%;
   }
-  .paineldentro img{
+  .painel img{
     width: min(400px, 100vw);
   }
   .paineldentro2{
     display: flex;
     align-items: flex-end;
   }
-   .meninocapa {
+  .meninocapa {
     display: flex;
     align-items: center;
   }
