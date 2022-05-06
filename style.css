@@ -106,7 +106,7 @@
   }
    .meninocapa {
     display: flex;
-    
+    position: absolute;
     border: 2px solid #205f9a;
     border-radius: 50%;
    
