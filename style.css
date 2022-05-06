@@ -119,6 +119,7 @@
   .textopri{
     font-size: min(5rem, 10vw);
     white-space: nowrap; 
+    text-align: left;
   }
   .divdeitadadireita{
     display: flex;
