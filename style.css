@@ -98,7 +98,7 @@
     margin: 4% 10% 5% 10%;
   }
   .paineldentro img{
-    width: min(300px, 50vw);
+    width: min(400px, 100vw);
   }
   .paineldentro2{
     display: flex;
@@ -106,19 +106,7 @@
   }
    .meninocapa {
     display: flex;
-    border: 2px solid #205f9a;
-    border-radius: 50%;
-   
-  }
-  .containertexto{
-    margin: 100px;
-    display: flex;
-    align-items: flex-end;
-  }
-  .textopri{
-    font-size: min(5rem, 10vw);
-    white-space: nowrap; 
-    text-align: left;
+    align-items: center;
   }
   .divdeitadadireita{
     display: flex;
