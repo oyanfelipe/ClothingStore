@@ -114,16 +114,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: min(20px, 6vw);border: 2px solid #205f9a
+    width: min(20px, 6vw);border: 2px solid #205f9a;
   }
   .button.activ {
     background-color: black;
     transition: background .5s;
   }
+  .butu {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+    border: 2px solid #205f9a;
+  }
   .button {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     background-color: #e9e7d6;
     color: #205f9a;
     font-size: min(20px, 4vw);
