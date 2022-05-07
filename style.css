@@ -122,8 +122,7 @@
   }
   .butu {
     display: flex;
-    width: 200px;
-    he
+    height: min(600px, 20vw);
     justify-content: end;
     align-items: end;
     align-content: end;
