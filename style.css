@@ -89,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .divdeitadaesquerda{
     display: flex;
@@ -101,7 +101,7 @@
   .painel{
     display: flex;
     justify-content: space-between;
-    margin: 4% 10% 5% 10%;border: 2px solid #205f9a
+    margin: 0% 10% 0% 10%;border: 2px solid #205f9a
   }
   .painel img{
     width: min(700px, 70vw);
@@ -126,7 +126,7 @@
     align-items: center;
     background-color: #e9e7d6;
     color: #205f9a;
-    font-size: 16px;
+    font-size: min(16px, 30vw);
     font-weight: 400;
     transition: background .5s;
     transition-duration: 0.4s;
@@ -258,6 +258,8 @@
     margin-left: 32px;
   }
   @media (max-width: 999px) {
+    
+    
     body {
       overflow-x: hidden;
     }
