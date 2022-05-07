@@ -171,11 +171,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 48px;
   }
   .imagemproduto {
-    max-width: calc(50% - 12px);
-    min-width: 200px
+    max-width: calc(50% - 200px);
+    min-width: 140px;
   }
   .imagemp{
     border: 2px solid #205f9a;
