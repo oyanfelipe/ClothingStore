@@ -92,7 +92,6 @@
     display: flex;
     width: min(40px, 6vw);
     align-items: center;
-    
   }
   .painel{
     display: flex;
@@ -109,6 +108,7 @@
   }
   .meninocapa {
     display: flex;
+    img
     
   }
   .divdeitadadireita{
