@@ -79,10 +79,11 @@
   .container-secundario {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 2px solid #205f9a;
     margin-top: 48px;
     margin-bottom: 96px;
+    border: 2px solid #205f9a
   }
   .f{
     display: flex;
@@ -92,23 +93,24 @@
     display: flex;
     width: min(40px, 6vw);
     align-items: center;
+    border: 2px solid #205f9a
   }
   .painel{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: 4% 10% 5% 10%;
+    margin: 4% 10% 5% 10%;border: 2px solid #205f9a
   }
   .painel img{
-    width: min(400px, 100vw);
+    width: min(300px, 50vw);
   }
   .paineldentro2{
     display: flex;
     align-items: flex-end;
+    border: 2px solid #205f9a
   }
   .meninocapa {
     display: flex;
-    background-image: url("https://cdn.glitch.global/fadcbf3f-45fc-4966-88b0-6ff0d0491e49/Component%201.png?v=1651804825586");
+    border: 2px solid #205f9a
     
   }
   .divdeitadadireita{
@@ -116,6 +118,7 @@
     align-items: center;
     align-content: flex-end;
     width: min(40px, 6vw);
+    border: 2px solid #205f9a
   }
   .button.activ {
     background-color: black;
@@ -136,7 +139,7 @@
     border-radius: 10px;
     width: min(180px, 30vw);
     height: min(60px, 30vw);
-    margin: 50px 0 48px 0;
+    margin: 50px 0 px 0;
   }
   .button:hover {
     background-color: #205f9a;
