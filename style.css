@@ -90,7 +90,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: min(500px, 6vw);
+    width: min(1200px, 100vw);
     border: 2px solid #205f9a
   }
   .divdeitadaesquerda{
