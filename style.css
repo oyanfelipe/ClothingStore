@@ -91,8 +91,9 @@
   }
   .divdeitadaesquerda{
     display: flex;
-    width: min(40px, 6vw);
+    width: min(20px, 6vw);
     align-items: center;
+    justify-content: center;
     border: 2px solid #205f9a
   }
   .painel{
@@ -101,24 +102,17 @@
     margin: 4% 10% 5% 10%;border: 2px solid #205f9a
   }
   .painel img{
-    width: min(300px, 50vw);
-  }
-  .paineldentro2{
-    display: flex;
-    align-items: flex-end;
-    border: 2px solid #205f9a
+    width: min(700px, 70vw);
   }
   .meninocapa {
-    display: flex;
-    border: 2px solid #205f9a
+    display: flex;border: 2px solid #205f9a
     
   }
   .divdeitadadireita{
     display: flex;
     align-items: center;
-    align-content: flex-end;
-    width: min(40px, 6vw);
-    border: 2px solid #205f9a
+    justify-content: center;
+    width: min(20px, 6vw);border: 2px solid #205f9a
   }
   .button.activ {
     background-color: black;
@@ -139,7 +133,7 @@
     border-radius: 10px;
     width: min(180px, 30vw);
     height: min(60px, 30vw);
-    margin: 50px 0 px 0;
+    margin: 0 0 48px 0;
   }
   .button:hover {
     background-color: #205f9a;
