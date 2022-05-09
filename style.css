@@ -176,8 +176,8 @@
     gap: 48px;
   }
   .imagemproduto {
-    max-width: calc(50% - 200px);
-    min-width: 140px;
+    max-width: calc(50% - 100px);
+    min-width: 240px;
   }
   .imagemp{
     border: 2px solid #205f9a;
