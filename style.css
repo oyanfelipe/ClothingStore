@@ -98,7 +98,7 @@
     width: min(20px, 6vw);
     align-items: center;
     justify-content: center;
-    border: 2px solid #205f9a
+    
   }
   .painel{
     display: flex;
@@ -128,13 +128,11 @@
     justify-content: flex-end;
     align-items: flex-end;
     align-content: flex-end;
-    border: 2px solid #205f9a;
   }
   .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background-color: #e9e7d6;
     color: #205f9a;
     font-size: min(20px, 4vw);
@@ -183,6 +181,9 @@
     border: 2px solid #205f9a;
   }
   .textopreco{
+    color: black;
+  }
+  .precotexto{
     color: black;
   }
   .container-secundario-a {
