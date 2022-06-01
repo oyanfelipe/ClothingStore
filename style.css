@@ -107,6 +107,10 @@
   }
   .meninocapa {
     display: flex;
+    -webkit-filter: drop-shadow(2px 2px 0 black)
+                  drop-shadow(-2px -2px 0 black);
+  filter: drop-shadow(2px 2px 0 black) 
+          drop-shadow(-2px -2px 0 black);
   }
   .divdeitadadireita{
     display: flex;
